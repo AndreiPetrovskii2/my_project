@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container_header {
+    margin: 0 auto;
+    width: 1500px;
+}
+header {
+    height: 87px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.header_information {
+    width: 497px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_information div {
+    cursor: pointer;
+}
+.donate button {
+    cursor: pointer;
+    width: 115px;
+    height: 43px;
+    background: #1D2130;
+    color: white;
+    border: 0px;
+    font-size: 16px;
+}
+.main {
+    background-image: url(../img/BG\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 735px;
+}
+.main_information {
+    padding-top: 108px;
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+    width: 640px;
+}
+.main_button {
+    font-size: 16px;
+    font-weight: 500;
+    width: 148px;
+    height: 51px;
+    border: 0px;
+    border-radius: 4px;
+    background: #FFF;
+    backdrop-filter: blur(40px);
+    cursor: pointer;
+}
+.main_b_inf {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 192px;
+}
+.main_footer p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.main_line {
+    width: 900px;
+    height: 1px;
+    background-color: #fff;
+}
+.know_about_us {
+    margin-top: 180px;
+    height: 724px;
+}
+.know_line {    
+    width: 72px;
+    height: 1px;
+    background-color: black;
+}
+.know_text {
+    font-size: 16px;
+    font-weight: 700;
+}
+.know_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.place_for-children {
+    width: 1233px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.know_main-line {
+    display: flex;
+    width: 247px;
+    align-items: center;
+    justify-content: space-between;
+}
+.place_text {
+    margin-top: 32px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.place_text-h1 {
+    width: 607px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+}
+.place_text div {
+    width: 607px;
+}
+.place_button {
+    border: 0px;
+    background-color: #F2C94C;
+    border-radius: 4px;
+    width: 146px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.supporters {
+    margin-top: 94px;
+}
+.supporters_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our_supporters {
+    color: var(--Primary-text, #1D2130);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.our_supporters-line {
+    width: 1313px;
+    height: 1px;
+    background: #E5E5E5;
+}
+.img_supporters {
+    margin-top: 33.5px;
+    display:flex;
+    justify-content: space-between;
+}
+.money_donate {
+    top: 245px;
+    left: 705px;
+    position: absolute;
+    width: 500px;
+    height: 225px;
+    background-color: #7f766b;
+    border-radius: 8px;
+    border: #1D2130 1px solid;
+    display: none;
+}
+.money_donate-info {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
